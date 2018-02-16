@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400');
 
-body {
+.session-pomodoro{
     background: #F44336;
+    padding: 0;
+    margin: 0;
+}
+
+.break-pomodoro{
+    background: rgb(5, 150, 77);
     padding: 0;
     margin: 0;
 }
