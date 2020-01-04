@@ -10,7 +10,7 @@
     "make": "electron-forge make",
     "publish": "electron-forge publish",
     "lint": "echo \"No linting configured\"",
-    "changelog": "rm -rf CHANGELOG.md && conventional-changelog -p pomotron -i CHANGELOG.md -s && git add ."
+    "changelog": "conventional-changelog -p pomotron -i CHANGELOG.md -s && git add ."
   },
   "keywords": [],
   "author": "DanielSilva",
