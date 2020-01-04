@@ -30,7 +30,8 @@
         ]
       },
       "electronPackagerConfig": {
-        "packageManager": "npm"
+        "packageManager": "npm",
+        "icon": "src/img/watch.ico"
       },
       "electronWinstallerConfig": {
         "name": "pomotron"
