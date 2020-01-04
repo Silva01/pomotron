@@ -1,5 +1,6 @@
 ## 2.0.0 (2020-01-04)
 
+* Adicionado icone para versão beta do app ([c9ad618](https://github.com/Silva01/pomotron/commit/c9ad618))
 * Adicionado Arquivo de Licença mais modificado comando para geração de CHANGELOG ([eb45890](https://github.com/Silva01/pomotron/commit/eb45890))
 * Adicionado nova Versão do Pomotron para 2.0.0 ([219dffc](https://github.com/Silva01/pomotron/commit/219dffc))
 * Adicionado Stay no novo Pomotron ([f89a6ac](https://github.com/Silva01/pomotron/commit/f89a6ac))
