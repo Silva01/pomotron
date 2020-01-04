@@ -1,5 +1,6 @@
 ## 1.0.0 (2020-01-04)
 
+* Adicionado arquivo CHANGELOG.md ([b2fc775](https://github.com/Silva01/pomotron/commit/b2fc775))
 * adicionado documentação para Pomotron ([fee763f](https://github.com/Silva01/pomotron/commit/fee763f))
 * Adicionado novo layout para o pomotron ([0994e32](https://github.com/Silva01/pomotron/commit/0994e32))
 * Adicionado som e jquery a aplicação ([1d9af70](https://github.com/Silva01/pomotron/commit/1d9af70))
