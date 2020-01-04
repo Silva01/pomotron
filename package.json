@@ -1,7 +1,7 @@
 {
   "name": "pomotron",
   "productName": "pomotron",
-  "version": "2.0.0",
+  "version": "2.0.0-beta",
   "description": "App para controle de horas com alarme",
   "main": "src/index.js",
   "scripts": {
@@ -39,8 +39,8 @@
       "electronInstallerDebian": {},
       "electronInstallerRedhat": {},
       "github_repository": {
-        "owner": "",
-        "name": ""
+        "owner": "https://github.com/Pomotron/pomotron.git",
+        "name": "Pomotron"
       },
       "windowsStoreConfig": {
         "packageName": "",
