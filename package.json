@@ -2,7 +2,7 @@
   "name": "pomotron",
   "productName": "pomotron",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "App para controle de horas com alarme",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
