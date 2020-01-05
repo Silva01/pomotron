@@ -1,7 +1,5 @@
 'use strict';
 
-var $ = require('jquery');
-
 var countdown;
 var delay = 1000;
 
@@ -41,8 +39,9 @@ function startCountdown(seconds) {
 }
 
 function startSession() {
-    $('body').removeClass('break-pomodoro');
-    $('body').addClass('session-pomodoro');
+    let body = document.getElementsByTagName('body');
+    body[0].classList.value = 'session-pomodoro';
+
     audioSession.play();
     timer.innerHTML = 'session';
     clearInterval(countdown);
@@ -60,8 +59,9 @@ function startSession() {
 }
 
 function startBreak() {
-    $('body').removeClass('session-pomodoro');
-    $('body').addClass('break-pomodoro');
+    let body = document.getElementsByTagName('body');
+    body[0].classList.value = 'break-pomodoro';
+    
     audioBreak.play();
     timer.innerHTML = 'break';
     clearInterval(countdown);
