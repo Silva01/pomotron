@@ -1,7 +1,7 @@
 {
   "name": "pomotron",
   "productName": "pomotron",
-  "version": "2.0.0-beta",
+  "version": "2.0.1-beta",
   "description": "App para controle de horas com alarme",
   "main": "src/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\"",
+    "lint": "npx eslint src",
     "changelog": "conventional-changelog -p pomotron -i CHANGELOG.md -s && git add ."
   },
   "keywords": [],
@@ -58,6 +58,9 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "electron-forge": "^5.1.0",
-    "electron-prebuilt-compile": "1.8.2"
+    "electron-prebuilt-compile": "1.8.2",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1"
   }
 }
