@@ -1,7 +1,7 @@
 {
   "name": "pomotron",
   "productName": "pomotron",
-  "version": "2.0.0",
+  "version": "2.0.1-beta",
   "description": "App para controle de horas com alarme",
   "main": "src/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\"",
+    "lint": "npx eslint src",
     "changelog": "conventional-changelog -p pomotron -i CHANGELOG.md -s && git add ."
   },
   "keywords": [],
