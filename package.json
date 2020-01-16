@@ -49,6 +49,7 @@
     }
   },
   "dependencies": {
+    "easytimer.js": "^4.1.1",
     "electron-compile": "^6.4.2",
     "electron-devtools-installer": "^2.2.3",
     "electron-squirrel-startup": "^1.0.0"
@@ -58,7 +59,7 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "electron-forge": "^5.1.0",
-    "electron-prebuilt-compile": "1.8.2",
+    "electron-prebuilt-compile": "^4.0.0",
     "eslint": "^5.16.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.19.1"
